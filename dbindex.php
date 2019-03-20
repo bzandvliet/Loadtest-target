@@ -11,7 +11,7 @@
  */
 
 
-$db = "mysql:host=10.34.4.35;dbname=mysql;port=3306";
+$db = "mysql:host=<IP-ADRES>;dbname=mysql;port=3306";
 $user = "root";
 $pass = "<WACHTWOORD>";
 $pdo = new PDO($db, $user, $pass);
