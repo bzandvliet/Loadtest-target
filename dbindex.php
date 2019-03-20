@@ -11,9 +11,9 @@
  */
 
 
-$db = "mysql:host=10.34.4.35;dbname=Loadtest;port=3306";
+$db = "mysql:host=10.34.4.35;dbname=mysql;port=3306";
 $user = "root";
-$pass = "HEKlrc83142";
+$pass = "<WACHTWOORD>";
 $pdo = new PDO($db, $user, $pass);
 
 $sStart = microtime(true);
